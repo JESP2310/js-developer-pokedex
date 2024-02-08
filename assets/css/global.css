@@ -5,6 +5,7 @@
 
 body {
     background-color: #f6f8fc;
+    margin-bottom: 10%;
 }
 
 .content {
@@ -21,4 +22,124 @@ body {
         margin: 1rem auto;
         border-radius: 1rem;
     }
+}
+
+.Faixa {
+    background-color: purple;
+    border: none;
+    width: 100%;
+    margin-top: 0;
+    padding: none;
+    position: relative;
+    display: flex;
+    height: 125px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Titulo {
+    text-align: center;
+    color: #fff;
+    margin: 0px;
+    width: fit-content;
+    justify-content: center;
+}
+
+.logo {
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 2vh;
+    margin-left: 10vh;
+}
+
+.pokemon.grass:hover{
+    opacity: 80%;
+    transition-duration: 600ms;
+}
+
+.pokemon.normal:hover{
+    opacity: 80%;
+    transition-duration: 600ms;
+}
+
+.pokemon.fire:hover{
+    opacity: 80%;
+    transition-duration: 600ms;
+}
+
+.pokemon.electric:hover{
+    opacity: 80%;
+    transition-duration: 600ms;
+}
+
+.pokemon.ice:hover{
+    opacity: 80%;
+    transition-duration: 600ms;
+}
+
+.pokemon.ground:hover{
+    opacity: 80%;
+    transition-duration: 600ms;
+}
+
+.pokemon.flying:hover{
+    opacity: 80%;
+    transition-duration: 600ms;
+}
+
+.pokemon.poison:hover{
+    opacity: 80%;
+    transition-duration: 600ms;
+}
+
+.pokemon.fighting:hover{
+    opacity: 80%;
+    transition-duration: 600ms;
+}
+
+.pokemon.psychic:hover{
+    opacity: 80%;
+    transition-duration: 600ms;
+}
+
+.pokemon.dark:hover{
+    opacity: 80%;
+    transition-duration: 600ms;
+}
+
+.pokemon.rock:hover{
+    opacity: 80%;
+    transition-duration: 600ms;
+}
+
+.pokemon.bug:hover{
+    opacity: 80%;
+    transition-duration: 600ms;
+}
+
+.pokemon.ghost:hover{
+    opacity: 80%;
+    transition-duration: 600ms;
+}
+
+.pokemon.steel:hover{
+    opacity: 80%;
+    transition-duration: 600ms;
+}
+
+.pokemon.dragon:hover{
+    opacity: 80%;
+    transition-duration: 600ms;
+}
+
+.pokemon.fairy:hover{
+    opacity: 80%;
+    transition-duration: 600ms;
+}
+
+.pokemon.water:hover{
+    opacity: 80%;
+    transition-duration: 600ms;
 }
